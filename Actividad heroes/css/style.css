@@ -1,0 +1,113 @@
+/*BODY*/
+
+*{
+    margin: 0;
+    padding:0;
+    
+   
+}
+
+body{
+    font-family: Roboto, sans-serif;
+}
+
+/*Header*/
+
+.arriba{
+    background-color: #1CD1B0;
+    font-size: 15px;
+    padding: 10px;
+          
+}
+
+.abajo{
+    background-color: #00669F;
+    padding: 20px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    
+}
+
+h1{
+    font-weight: lighter;
+}
+
+/*main*/
+/*div tarjetas*/
+
+.circulo{
+    border-radius: 50%;
+    margin: 15px;
+    position: relative;
+    bottom: 90px;
+    
+}
+.contenedor-tarjetas{
+    display: flex;
+    margin: 80px 50px;
+    position: relative;
+    
+}
+
+.fondo{
+    width: 100%;
+}
+
+h2{
+    margin: 15px;
+}
+    
+
+.cora{
+    position: absolute;
+    margin: 15px;
+}
+.tarj{
+    background-color: #F3F3F3;
+    display: block;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    
+}
+
+.titulo{
+    position: relative;
+    bottom: 90px;
+    
+    
+}
+
+.info{
+    position: relative;
+    bottom: 90px;
+    margin: 20px;
+
+}
+
+.ver{
+    position: relative;
+    bottom: 50px;
+    
+}
+
+
+a{
+    background-color: #00669F;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    
+}
+
+/*Footer*/
+.derechos{
+    background-color:#00669F;
+    color: white;
+    font-size: 16px;
+    padding: 15px;
+}
